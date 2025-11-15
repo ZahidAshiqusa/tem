@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ali Institute Registration</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Ali Institute Registration</h1>
+
+    <form id="regForm">
+      <label>Name</label>
+      <input type="text" id="name" required />
+
+      <label>Number of Child</label>
+      <select id="childCount">
+        <option value="none">None</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="more">More</option>
+      </select>
+
+      <div id="childDetails"></div>
+
+      <label>Address</label>
+      <input type="text" id="address" />
+
+      <label>Phone Number</label>
+      <input type="text" id="phone" required />
+
+      <label>Interest</label>
+      <select id="interest">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+
+      <label>Surveyor Name</label>
+      <input type="text" id="surveyor" />
+
+      <button type="submit" id="submitBtn">Submit</button>
+    </form>
+  </div>
+
+  <footer>
+    this application is managed by Zaid Ashiq 03251021727
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
